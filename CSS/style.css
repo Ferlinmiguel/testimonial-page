@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
+:root{
+    --sora-font: 'Sora', sans-serif; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cad5e0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial{
+    background-color: #FFFFFF;
+    width: 1280px;
+    height: 700px;
+    display: flex;
+}
+
+.reviewers-requisites{
+    background-color: #FAFAF9 ;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviews{
+    background-color: #FAFAF9;
+    width: 50%;
+    height: 100%;
+}
+
+.star-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #F5C044;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-container{
+    padding-left: 70px;
+    margin-bottom: 10px;
+}
+
+.reviewers-tittle{
+    padding-left: 70px;
+    font-family: var(--sora-font);
+    font-size: 36px;
+}
+
+.reviewers-definition-p{
+    font-family: var(--sora-font);
+    font-size: 18px;
+    padding: 10px 70px 10px 70px;
+    justify-content: left;
+    line-height: 1.5;
+    color: #52525A;
+}
+
+.text-rev{
+    display: flex;
+    justify-content: start;
+}
+
+.review-definition-list{
+    list-style: none;
+    padding-left: 70px;
+    font-family: var(--sora-font);
+    font-size: 12px;
+    color: #52525A;
+}
+
+.review-definition-list li::before{
+ content: url(/SVG/Done_ring_round_fill.svg);
+ display: inline-block;
+ vertical-align: middle;
+ margin-right: 8px;
+}
+
+
+/* Card review styles */
+.card-logo{
+    width: 70px;
+}
+.card-review{
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 70px rgba(136, 136, 136, 0.1);
+}
+
+.card-logo-rating{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.rating-star {
+    width: 20px;
+}
+
+.rating{
+    width: 60%;
+}
+
+.card-review-client{
+    font-family: var(--sora-font);
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 6px ;
+    color: #18181B;
+}
+
+.card-review-text{
+    font-family: var(--sora-font);
+    font-size: 13px;
+    line-height: 1.5;
+    color: #52525A;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.google {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
